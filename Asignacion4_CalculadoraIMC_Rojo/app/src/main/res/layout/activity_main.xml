@@ -19,8 +19,9 @@
     <EditText
         android:id="@+id/weight"
         android:layout_width="351dp"
-        android:layout_height="35dp"
+        android:layout_height="40dp"
         android:layout_marginTop="60dp"
+        android:hint="Peso"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/avatar" />
@@ -28,8 +29,9 @@
     <EditText
         android:id="@+id/height"
         android:layout_width="351dp"
-        android:layout_height="35dp"
+        android:layout_height="40dp"
         android:layout_marginTop="60dp"
+        android:hint="Altura"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/weight" />
@@ -40,6 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:textSize="25sp"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/calcular" />
@@ -50,6 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:textSize="25sp"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imc" />
